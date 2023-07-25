@@ -7,12 +7,18 @@ using namespace std;
 			- hide logic and display only essencial part of interface(ui) to the user.
 			- prevent the user from accessing the app data.
 			- restrict the user from attributes.
+
+   		Methods:
+     			1. Using access modifiers:
+				- public, private, protected.
+    			2. Using abstract class.
+    
 			
 		Abstraction in Inheritece using access modifiers:
 			- Access modifiers/specifiers:
 				- public:		accessible everywhere through object
 				- private:		accessible in scope of class its own and friend function.
-				- protected:	accessible in scope of class and derived(child) class's scope
+				- protected:		accessible in scope of class and derived(child) class's scope
 */
 
 class Google {
